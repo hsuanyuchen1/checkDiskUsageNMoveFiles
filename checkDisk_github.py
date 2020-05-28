@@ -3,7 +3,7 @@ import shutil
 import os
 
 
-filePending = r"\\192.168.253.193\d$\\files\pending"
+filePending = r"\\192.168.253.193\d$\files\pending"
 ctaPending = r"d:\files\pending"
 
 diskUsage = psutil.disk_usage("d:/")
